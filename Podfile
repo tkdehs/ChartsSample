@@ -7,5 +7,12 @@ target 'ChartsSample' do
 
   # Pods for ChartsSample
   pod 'Charts'
+  pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'ObjectMapper'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'master'
   
 end

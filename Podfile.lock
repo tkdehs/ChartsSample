@@ -1,22 +1,71 @@
 PODS:
+  - Alamofire (5.6.2)
   - Charts (4.1.0):
     - Charts/Core (= 4.1.0)
   - Charts/Core (4.1.0):
     - SwiftAlgorithms (~> 1.0)
+  - Differentiator (5.0.0)
+  - ObjectMapper (4.2.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - Spring (1.0.6)
   - SwiftAlgorithms (1.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Charts
+  - ObjectMapper
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SnapKit
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `master`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Charts
+    - Differentiator
+    - ObjectMapper
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
     - SwiftAlgorithms
 
+EXTERNAL SOURCES:
+  Spring:
+    :branch: master
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
 SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   Charts: 354f86803d11d9c35de280587fef50d1af063978
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
 
-PODFILE CHECKSUM: 6f113f1d2592e581a2ecb7404ad3492f942782e6
+PODFILE CHECKSUM: 583c1629a83f22dd8662ee0dec33af36e2189c4b
 
 COCOAPODS: 1.11.3
